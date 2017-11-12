@@ -55,7 +55,7 @@ class Game extends React.Component {
     }
   
     jumpTo(step) {
-        if (step == 0) {
+        if (step === 0) {
             this.setState({
                 history: [
                 {
